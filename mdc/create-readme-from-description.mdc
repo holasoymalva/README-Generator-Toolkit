@@ -1,0 +1,131 @@
+---
+description: Generate a professional README.md from project description
+globs:
+alwaysApply: false
+---
+# Rule: Generate README from Project Description
+
+## Goal
+
+To guide an AI assistant in creating a comprehensive, professional README.md file based on a project description provided by the user. The README should be clear, engaging, and follow modern documentation best practices.
+
+## Process
+
+1. **Receive Project Description:** The user provides a description of their project, including purpose, features, and any specific requirements.
+
+2. **Ask Clarifying Questions:** Before generating the README, ask targeted questions to gather essential details:
+   - **Project Purpose:** "What problem does this project solve? Who is the target audience?"
+   - **Key Features:** "What are the 3-5 most important features users should know about?"
+   - **Technology Stack:** "What technologies, frameworks, or languages are you using?"
+   - **Installation Requirements:** "What dependencies or prerequisites are needed?"
+   - **Usage Scenarios:** "Can you provide 1-2 common use cases or examples?"
+   - **Project Status:** "Is this in development, beta, or production ready?"
+   - **Contributing:** "Do you want to include contribution guidelines? Open source or private?"
+   - **Visual Elements:** "Do you have any screenshots, demos, or diagrams to include?"
+
+3. **Generate README:** Create a comprehensive README using the structure outlined below.
+
+4. **Save File:** Save as `README.md` in the project root directory.
+
+## README Structure
+
+Generate a README with these sections:
+
+### 1. Header Section
+- Project title with relevant emoji
+- Brief, compelling description (1-2 sentences)
+- Key badges (build status, version, license, etc.)
+- Links to demo, documentation, or live version if applicable
+
+### 2. Table of Contents (for longer READMEs)
+- Quick navigation for sections below
+
+### 3. About / Overview
+- What the project does
+- Why it exists (problem it solves)
+- Key benefits or unique selling points
+
+### 4. Features
+- Bullet points of main functionalities
+- Use emojis for visual appeal
+- Keep descriptions concise but informative
+
+### 5. Getting Started
+- Prerequisites and system requirements
+- Installation instructions (step-by-step)
+- Quick start example
+- Link to more detailed documentation if needed
+
+### 6. Usage
+- Basic usage examples with code snippets
+- Common use cases
+- Configuration options if applicable
+- API documentation or links
+
+### 7. Examples (Optional)
+- Real-world usage scenarios
+- Screenshots or GIFs if available
+- Links to example projects
+
+### 8. Technology Stack
+- List of main technologies used
+- Brief explanation of architectural decisions if relevant
+
+### 9. Roadmap (Optional)
+- Planned features
+- Current development status
+- Timeline if available
+
+### 10. Contributing
+- Guidelines for contributors
+- How to report issues
+- Development setup instructions
+- Code of conduct reference
+
+### 11. License
+- License type and brief description
+- Link to full license file
+
+### 12. Contact/Support
+- How to get help
+- Links to documentation, community, or support channels
+- Author/maintainer information
+
+### 13. Acknowledgments (Optional)
+- Credits to contributors, inspirations, or resources used
+
+## Content Guidelines
+
+- **Tone:** Professional but approachable
+- **Clarity:** Use clear, concise language
+- **Scannability:** Use headers, bullets, and formatting for easy reading
+- **Completeness:** Include enough detail for users to get started successfully
+- **Visual Appeal:** Use emojis, badges, and formatting to make it engaging
+- **Actionable:** Provide specific steps and examples rather than vague descriptions
+
+## Technical Considerations
+
+- Use proper Markdown formatting
+- Include code blocks with syntax highlighting
+- Add badges using shields.io format
+- Ensure all links are functional
+- Use relative paths for internal project files
+- Consider mobile/GitHub viewing experience
+
+## Quality Checklist
+
+Before finalizing, ensure the README:
+- [ ] Clearly explains what the project does
+- [ ] Provides working installation instructions
+- [ ] Includes practical usage examples
+- [ ] Has proper formatting and structure
+- [ ] Uses consistent tone and style
+- [ ] Includes relevant badges and links
+- [ ] Is free of typos and grammatical errors
+
+## Final Instructions
+
+1. Ask clarifying questions before starting
+2. Generate the complete README based on user responses
+3. Save as `README.md` in the project root
+4. Offer to make revisions based on user feedback
