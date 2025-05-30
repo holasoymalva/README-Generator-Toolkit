@@ -1,4 +1,4 @@
-# 📚 README Generator Toolkit 🤖
+# 📚 README Generator Toolkit for Cursor 🤖
 
 Welcome to the **README Generator Toolkit**! This repository provides a collection of `.mdc` (Markdown Command) files designed to help you create professional, comprehensive `README.md` files using AI assistance within the [Cursor](https://cursor.sh/) editor. Whether you're starting from a project description or analyzing an existing codebase, these tools will help you generate documentation that truly represents your project.
 
